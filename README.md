@@ -29,59 +29,47 @@ _Website for license_
 
 ## Criteria-for-assignment
 
-GIVEN a text editor web application
+GIVEN a single-page application portfolio for a web developer
 
-<!-- good -->
-**WHEN I open my application in my editor**
-*THEN I should see a client server folder structure*
+**WHEN I load the portfolio**
+*THEN I am presented with a page containing a header, a section for content, and a footer*
 
-<!-- good -->
-**WHEN I run `npm run start` from the root directory**
-*THEN I find that my application should start up the backend and serve the client* 
+**WHEN I view the header**
+*THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio*
 
-<!-- good -->
-**WHEN I run the text editor application from my terminal**
-*THEN I find that my JavaScript files have been bundled using webpack*
+**WHEN I view the navigation titles**
+*WHEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted*
 
-<!-- good -->
-**WHEN I run my webpack plugins**
-*THEN I find that I have a generated HTML file, service worker, and a manifest file*
+**WHEN I click on a navigation title**
+*THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted*
 
-<!-- good -->
-**WHEN I use next-gen JavaScript in my application**
-*THEN I find that the text editor still functions in the browser without errors*
+**WHEN I load the portfolio the first time**
+*THEN the About Me title and section are selected by default*
 
-<!--good-->
-**WHEN I open the text editor**
-*THEN I find that IndexedDB has immediately created a database storage*
+**WHEN I am presented with the About Me section**
+*THEN I see a recent photo or avatar of the developer and a short bio about them*
 
-<!-- need?  -->
-**WHEN I enter content and subsequently click off of the DOM window**
-*THEN I find that the content in the text editor has been saved with IndexedDB*
+**WHEN I am presented with the Portfolio section**
+*THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository*
 
-<!-- good -->
-**WHEN I reopen the text editor after closing it**
-*THEN I find that the content in the text editor has been retrieved from our IndexedDB*
+**WHEN I am presented with the Contact section**
+*THEN I see a contact form with fields for a name, an email address, and a message*
 
-<!-- need ? install button works but need local open  -->
-**WHEN I click on the Install button**
-*THEN I download my web application as an icon on my desktop*
+**WHEN I move my cursor out of one of the form fields without entering text**
+*THEN I receive a notification that this field is required*
 
-<!-- need? good-->
-**WHEN I load my web application**
-*THEN I should have a registered service worker using workbox*
+**WHEN I enter text into the email address field**
+*THEN I receive a notification if I have entered an invalid email address*
 
-<!-- need? -->
-**WHEN I register a service worker**
-*THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets*
+**WHEN I am presented with the Resume section**
+*THEN I see a link to a downloadable resume and a list of the developer’s proficiencies*
 
-<!-- need -->
-**WHEN I deploy to Heroku**
-*THEN I should have proper build scripts for a webpack application*
+**WHEN I view the footer**
+*THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)*
 
 ## Repository-Link
 
-[Github](https://github.com/PintoDrop/textedit)
+[Github](https://github.com/PintoDrop/reactpro)
 
 ## Deployed-Website
 
@@ -89,10 +77,4 @@ GIVEN a text editor web application
 
 ## Screen-Shots
 
-![Home Page Screenshot](./client/src/images/homePage.JPG)
-
-![Scripts Packages](./client/src/images/scriptsPackage.JPG)
-
-![Manifest Application Screenshot](./client/src/images/manifestApp.JPG)
-
-![Service Worker App Screenshot](./client/src/images/serviceWorkApp.JPG)
+![Home Page Screenshot]()

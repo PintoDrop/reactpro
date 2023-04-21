@@ -15,9 +15,15 @@
 
 ## Description
 
+For this assignment I was tasked with creating a professional portfolio for myself. Differing from the first assignment, I will be creating this one using concepts with react.
+
 ## Usage
 
+The user will be able to view the page and see information about myself and the projects I've worked on during this course.
+
 ## Installation
+
+You will need to run npm install after cloning the repo to aquire the react packages.
 
 ## License
 

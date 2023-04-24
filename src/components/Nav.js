@@ -23,6 +23,9 @@ function Nav(props) {
        <li>
           <NavLink to="/contact">Contact Info</NavLink>
        </li>
+       <li>
+          <NavLink to="/resume">Resume</NavLink>
+       </li>
      </ul>
    </div>
  </nav>;

@@ -15,7 +15,7 @@
 
 ## Description
 
-For this assignment I was tasked with creating a professional portfolio for myself. Differing from the first assignment, I will be creating this one using concepts with react.
+For this assignment I was tasked with creating a professional portfolio for myself. Differing from the first assignment, I will be creating this one using concepts with react. This application will allow a user to load the page and gain information about myself. The user will be able to see some projects I have created, a little about me, and able to contact me with any questions.
 
 ## Usage
 

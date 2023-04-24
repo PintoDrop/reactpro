@@ -18,7 +18,7 @@ function Nav(props) {
         <NavLink to="/aboutme">About Me</NavLink>
        </li>
        <li>
-          <NavLink to="/project">Projects</NavLink>
+          <NavLink to="/project">Portfolio</NavLink>
        </li>
        <li>
           <NavLink to="/contact">Contact Info</NavLink>
